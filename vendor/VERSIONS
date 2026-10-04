@@ -1,0 +1,25 @@
+# what is vendored, from where, at which commit. vendor/fetch.sh reads this.
+# A grammar row names the folder its generated C is in and the folder its
+# queries are in; "-" in both marks a row fetch.sh handles by name.
+# The "dejavu" row is a release archive, not a commit: its third column is the archive's SHA-256.
+# name                  repository                                              commit                                    src                       queries                       note
+tree-sitter             https://github.com/tree-sitter/tree-sitter              6070dbfefd326bd735e5683eb128cc1b57dad0c0  -                         -                             v0.27.0: lib/src, lib/include, LICENSE
+stb                     https://github.com/nothings/stb                         2c980bb59875b0d32144a71867fbdebb2f77cd20  -                         -                             stb_truetype.h, LICENSE: the SDL3 port's font rasteriser
+dejavu                  https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2 fa9ca4d13871dd122f61258a80d01751d603b4d3ee14095d65453b4e846e17d7  -  -  2.37: ttf/DejaVuSansMono.ttf, LICENSE: the font carried inside the SDL3 port
+tree-sitter-c           https://github.com/tree-sitter/tree-sitter-c            b780e47fc780ddc8da13afa35a3f4ed5c157823d  src                       queries
+tree-sitter-cpp         https://github.com/tree-sitter/tree-sitter-cpp          c009222808634c1014f82438d4883753516a2c24  src                       queries                     
+tree-sitter-csharp      https://github.com/tree-sitter/tree-sitter-c-sharp      8c0abe0b84a3681d3e6852ce2e2a1eecb4f731c5  src                       queries                     
+tree-sitter-css         https://github.com/tree-sitter/tree-sitter-css          dda5cfc5722c429eaba1c910ca32c2c0c5bb1a3f  src                       queries                     
+tree-sitter-javascript  https://github.com/tree-sitter/tree-sitter-javascript   58404d8cf191d69f2674a8fd507bd5776f46cb11  src                       queries                     
+tree-sitter-html        https://github.com/tree-sitter/tree-sitter-html         73a3947324f6efddf9e17c0ea58d454843590cc0  src                       queries                     
+tree-sitter-lua         https://github.com/tree-sitter-grammars/tree-sitter-lua 10fe0054734eec83049514ea2e718b2a56acd0c9  src                       queries                     
+tree-sitter-apex        https://github.com/aheber/tree-sitter-sfapex            da568eee10ce4724a40f368b2b7e795dacb4f1ba  apex/src                  apex/queries                
+tree-sitter-python      https://github.com/tree-sitter/tree-sitter-python       26855eabccb19c6abf499fbc5b8dc7cc9ab8bc64  src                       queries                     
+tree-sitter-ruby        https://github.com/tree-sitter/tree-sitter-ruby         ad907a69da0c8a4f7a943a7fe012712208da6dee  src                       queries                     
+tree-sitter-rust        https://github.com/tree-sitter/tree-sitter-rust         77a3747266f4d621d0757825e6b11edcbf991ca5  src                       queries                     
+tree-sitter-markdown    https://github.com/tree-sitter-grammars/tree-sitter-markdown a0a00f817d02412bd92c54d316f164d827b57b5c  tree-sitter-markdown/src  tree-sitter-markdown/queries
+tree-sitter-markdowninline https://github.com/tree-sitter-grammars/tree-sitter-markdown a0a00f817d02412bd92c54d316f164d827b57b5c  tree-sitter-markdown-inline/src  tree-sitter-markdown-inline/queries
+tree-sitter-json        https://github.com/tree-sitter/tree-sitter-json         254c42a6476413b776221e03982ac8ae159eeb72  src                       queries                     
+tree-sitter-xml         https://github.com/tree-sitter-grammars/tree-sitter-xml 5000ae8f22d11fbe93939b05c1e37cf21117162d  xml/src                   queries/xml                                         its scanner includes ../../common/scanner.h: kept as vendor/common
+tree-sitter-bash        https://github.com/tree-sitter/tree-sitter-bash         a06c2e4415e9bc0346c6b86d401879ffb44058f7  src                       queries                     
+tree-sitter-powershell  https://github.com/airbus-cert/tree-sitter-powershell   e7bd348c49fdfd5c853a146a670965ba516a6239  src                       queries                     

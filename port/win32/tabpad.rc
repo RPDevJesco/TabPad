@@ -1,0 +1,3 @@
+// the program's icon: what the window, the taskbar and the right-click
+// menu show. The first icon of a program is the one Windows uses.
+1 ICON "tabpad.ico"

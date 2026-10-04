@@ -1,0 +1,6 @@
+{
+    "name": "sample",
+    "version": 3,
+    "tags": ["a", "b"],
+    "nested": { "ok": true, "none": null, "ratio": 1.5e3 }
+}

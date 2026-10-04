@@ -1,0 +1,10 @@
+/* layout */
+@media (max-width: 600px) {
+    .card > a:hover {
+        color: #ff8800;
+        margin: 0 auto 1.5em;
+        background: url("bg.png") no-repeat;
+    }
+}
+
+#main { display: grid; }

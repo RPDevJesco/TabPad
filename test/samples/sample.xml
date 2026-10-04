@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- metadata -->
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Invoice</label>
+    <fields kind="text" length="80">
+        <fullName>Number__c</fullName>
+        <note><![CDATA[kept <as> is]]></note>
+    </fields>
+    <empty/>
+</CustomObject>
