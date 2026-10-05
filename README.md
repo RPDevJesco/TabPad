@@ -1,6 +1,6 @@
 # TabPad
 
-A tabbed text editor for Windows, Linux and the browser that takes its inspiration from Notepad++.
+A tabbed text editor for Windows, MacOS, Linux and the browser that takes its inspiration from Notepad++.
 
 TabPad opens fast, keeps every tab you had open, and never asks you to save before you close it. Unsaved text is still there the next time you start it, even after a crash or a power cut.
 
