@@ -10,7 +10,7 @@ A text editor should be a text editor.
 
 - **It is only software.** TabPad carries no messages, no news and no opinions. Its release notes say what changed in the program and nothing else.
 - **It talks to nobody.** There are no update checks, no telemetry and no accounts. The desktop program never opens a network connection. The browser version is built so that it cannot.
-- **It is cross-platform by design.** The same editor runs on Windows, on Linux and in a browser tab. The editor itself is plain C with no operating system in it; each platform is a thin layer underneath. macOS builds from the same source and has not been tested yet.
+- **It is cross-platform by design.** The same editor runs on Windows, MacOS, Linux and in a browser tab.
 - **It does not lose your work.** Tabs, unsaved text, the caret and the scroll position are written down as you type, not when you remember to save.
 
 ## Features
